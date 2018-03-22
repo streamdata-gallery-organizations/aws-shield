@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeProtection&k=1:
+  /?Action=DescribeProtection:
     get:
       summary: ' Describe Protection '
       description: Lists the details of a
