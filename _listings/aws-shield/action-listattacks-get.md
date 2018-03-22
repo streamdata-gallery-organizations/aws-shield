@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAttacks&k=1:
+  /?Action=ListAttacks:
     get:
       summary: ' List Attacks '
       description: |-
