@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateProtection&k=1:
+  /?Action=CreateProtection:
     get:
       summary: ' Create Protection '
       description: Enables AWS Shield Advanced for a specific AWS resource
