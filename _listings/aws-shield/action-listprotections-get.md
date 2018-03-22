@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListProtections&k=1:
+  /?Action=ListProtections:
     get:
       summary: ' List Protections '
       description: Lists all protections
