@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteProtection&k=1:
+  /?Action=DeleteProtection:
     get:
       summary: ' Delete Protection '
       description: Deletes an AWS Shield Advanced
