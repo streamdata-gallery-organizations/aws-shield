@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAttack&k=1:
+  /?Action=DescribeAttack:
     get:
       summary: ' Describe Attack '
       description: Describes the details of a DDoS attack
