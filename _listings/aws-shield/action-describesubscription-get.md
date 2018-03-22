@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSubscription&k=1:
+  /?Action=DescribeSubscription:
     get:
       summary: ' Describe Subscription '
       description: Provides details about the AWS Shield Advanced subscription for
