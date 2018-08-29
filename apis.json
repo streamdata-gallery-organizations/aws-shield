@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS Shield",
+	"description": "This is a repository of aws shield APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-shield.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-shield.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS Shield",
+			"x-api-slug": "aws-shield",
+			"description": "AWS Shield is a managed Distributed Denial of Service protection service that safeguards web applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection. There are two tiers of AWS Shield, Standard and Advanced. All AWS customers benefit from the automatic protections of AWS Shield Standard, at no additional charge. AWS Shield Standard defends against most common, frequently occurring network and transport layer DDoS attacks that target your web site or applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2016-12-30 at 10.35.48 PM.png",
+			"humanURL": "https://aws.amazon.com/shield/",
+			"baseURL": ":///",
+			"tags": "AWS Shield",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-shield/master/_listings/aws-shield/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS Shield",
+	"include": [
+		{
+			"name": "AWS Shield",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-shield/master/_listings/aws-shield/apis.yaml"
+		}
+	]
+}
